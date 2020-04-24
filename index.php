@@ -111,8 +111,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'GET') {
             $values['SP'] = array();
             $values['Name'] = $base['NAME'];
             $values['Email'] = $base['EMAIL'];
-            $values['DD'] = $base['DAY'];
-            $values['DM'] = $base['MONTH'];
             $values['DY'] = $base['YEAR'];
             $values['BG'] = $base['BIO'];
             $values['PO'] = $base['SEX'];
